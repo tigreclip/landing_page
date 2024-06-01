@@ -22,6 +22,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -71,8 +73,7 @@ a {
 .header .container {
     display: flex;
     flex-direction: row;
-    flex: 1;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     background: #1f2937;
     padding: 50px;
@@ -94,7 +95,9 @@ a {
 }
 
 h1 {
-    color: #e5e6eb
+    display: flex;
+    flex:1;
+    color: #e5e6eb;
 }
 
 .container .quote {
@@ -104,15 +107,21 @@ h1 {
 
 
 .txt_box {
+    width: 300px; 
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex: 1;
+    align-items:flex-start;
+    color: #e5e6eb;
 }
 
 .txt_box h1 {
+    display: block;
+    width: 200px;
+    word-break: keep-all;
     font-size: 48px;
     font-weight: bolder;
     background: #e5e7eb;
+    color: #fff;
     text-align: left;
 }
 
@@ -120,7 +129,7 @@ h1 {
     font-family: 'Hero New', sans-serif;
     font-size: 18PX;
     color: #fff;
-    display: flex;
+    display: block;
     justify-content: flex-start;
     text-align: left;
 
@@ -131,6 +140,7 @@ h1 {
 }
 
 .button {
+    display: block;
     background-color: #0380fd;
     color: #fff;
     margin: 10px 0px;
@@ -139,11 +149,10 @@ h1 {
 }
 
 img {
-    width: 50%;
+    height: 200px;
     display: flex;
     background: grey;
     margin: 0 50px 0px 50px;
-    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02);
 
 }
 

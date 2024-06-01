@@ -11,33 +11,33 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-}   
+}
 
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 body {
-    font-family: 'Roboto',sans-serif;
-    background:#fff;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
 }
 
 
 .navbar {
     background-color: #1f2937;
     color: #fff;
-    }
+}
 
 .navbar .container {
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0px 50px 0px 50px;
-    
+
 }
 
 .logo {
@@ -56,45 +56,47 @@ li {
     margin: 10px;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
+
 a {
     font-size: 18px;
     color: #e5e6eb;
     list-style: none;
-    
+
 }
 
 
-.header .container{
+.header .container {
     display: flex;
     flex-direction: row;
     flex: 1;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     background: #1f2937;
-    padding:50px ;
+    padding: 50px;
 }
 
-.header .header_box{
+.header .header_box {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:flex-start; 
+    justify-content: space-around;
+    align-items: flex-start;
     margin: 0px 0px 0px 25px;
     padding: 10px;
 }
 
 @media (max-width: 700px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
-  h1 {
+h1 {
     color: #e5e6eb
-  }
+}
+
 .container .quote {
     color: #e5e7eb;
 }
@@ -104,10 +106,11 @@ a {
 .txt_box {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
 }
+
 .txt_box h1 {
-    font-size: 48px ;
+    font-size: 48px;
     font-weight: bolder;
     background: #e5e7eb;
     text-align: left;
@@ -120,14 +123,16 @@ a {
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    
+
 }
+
 .button:hover {
     color: #3882f6;
 }
+
 .button {
-    background-color:#0380fd;
-    color:#fff;
+    background-color: #0380fd;
+    color: #fff;
     margin: 10px 0px;
     padding: 5px 20px;
     border-radius: 10px;
@@ -138,11 +143,11 @@ img {
     display: flex;
     background: grey;
     margin: 0 50px 0px 50px;
-    box-shadow:  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02);
-    
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02);
+
 }
 
-.boxes  {
+.boxes {
     margin: 50px;
     display: flex;
     flex-direction: row;

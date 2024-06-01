@@ -24,6 +24,7 @@ body {
     background:#fff;
 }
 
+
 .navbar {
     background-color: #1f2937;
     color: #fff;
@@ -64,66 +65,81 @@ a {
     list-style: none;
     
 }
-header{
+
+
+.header .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    background-color: #1f2937;
-    margin: 0px;
-}
-header.container{
-    display: flex;
-    flex-direction: row;
-    align-items:center ;
-}
-.boxes .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start  ;
-    margin: 0px;
-}
-.container .box {
-    width: 100px;
-    height: 100px;
-    border: 2px solid blue;
-    border-radius: 10px;
+    flex: 1;
+    justify-content:center;
+    align-items:center;
+    background: #1f2937;
+    padding:50px ;
 }
 
-.quote {
-    
-    background: #e5e7eb;
+.header .header_box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start; 
+    margin: 0px 0px 0px 25px;
+    padding: 10px;
 }
+
+@media (max-width: 700px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+  h1 {
+    color: #e5e6eb
+  }
+.container .quote {
+    color: #e5e7eb;
+}
+
+
 
 .txt_box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items:flex-start;
 }
 .txt_box h1 {
     font-size: 48px ;
     font-weight: bolder;
-    color: #F9FAF8;
+    background: #e5e7eb;
     text-align: left;
-    margin:  0px 50px
 }
 
 .txt_box p {
     font-family: 'Hero New', sans-serif;
     font-size: 18PX;
-    color: #e5e7eb;
-    margin: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    
 }
 .button:hover {
     color: #3882f6;
 }
 .button {
+    background-color:#0380fd;
+    color:#fff;
+    margin: 10px 0px;
     padding: 5px 20px;
-    margin: 0 50px;
+    border-radius: 10px;
 }
 
 img {
-    max-width: 1;
-    margin: 50px;
+    width: 50%;
+    display: flex;
+    background: grey;
+    margin: 0 50px 0px 50px;
+    box-shadow:  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02);
+    
 }
 
 .boxes  {

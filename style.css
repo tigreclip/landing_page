@@ -21,12 +21,7 @@ body {
     margin: 0 auto;
     padding: 0 30px
 
-    
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 50px 0px 50px; */
+  
 }
 
 
@@ -106,18 +101,8 @@ a:link {
     max-width: 400px;
  }
 
-.txt_box {
-    width: 300px; 
-    display: flex;
-    flex: 1;
-    align-items:flex-start;
-    color: #e5e6eb;
-}
-
 .txt_box h1 {
-    display: block;
-    width: 200px;
-    word-break: keep-all;
+    max-width: 200px;
     font-size: 48px;
     font-weight: bolder;
     background: #e5e7eb;
@@ -126,59 +111,57 @@ a:link {
 }
 
 .txt_box p {
+    max-width: 200px;
     font-family: 'Hero New', sans-serif;
     font-size: 18PX;
-    color: #fff;
-    display: block;
-    justify-content: flex-start;
+    font-weight: bolder;
+    color: #e5e6eb;
     text-align: left;
 
 }
 
 .button:hover {
-    color: #06ff8b;
+    color: lightsalmon;
 }
 
 .button {
     display: block;
     background-color: #3882f6;
     color: #fff;
+    width: 150px;
     margin: 10px 0px;
     padding: 5px 20px;
-    border: 1px solid blue;
+    border: 1px solid #3882f6;
     border-radius: 10px;
     border-color: #3882f6;
-}
-
-
-
 }
 
 .boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: px;
+    align-items: center;
+    padding: 0 50px 50px ;
     margin: 50px; 
 }
 
 .boxes h2 {
     display: flex;
-    flex: 1;
-    flex-direction: row;
     justify-content: center;
+    font-family: ;
     font-size: 36px;
     font-weight:extra-bold;
     color: #1f2937;
-    margin-bottom: 30px;
+    
 }
 .boxes .container {
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content:center;
     align-items:center;
-    margin: 0px 50px 0px 50px;    
+    padding: 0 50px;
+    margin: 50px;
+        
 }
 .box_p {
     display:flex;
@@ -203,22 +186,18 @@ a:link {
 }
 .inspireing {
     display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content:center;
-    align-items:flex-start;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
     background: #e5e7eb;
-    margin: 0px;
-    padding: 0px;
 }
 .inspireing p {
-    display: flexbox;
     max-width: 775px;
     font-size: 36px;
     font-weight: 25;
     font-style: italic;
     color: #1f2937;
-    margin-bottom: 20px;
+    padding: 100px 100px ;
     text-align: justify;
 
 }
@@ -229,8 +208,8 @@ a:link {
     font-family: 'Hero New', sans-serif;
     font-weight: bolder;
     color: #1f2937;
-    align-self:flex-end ;
-    margin-left: 0px;
+    align-self:self-end;
+    margin-right: 50px;
 }
 .singup {
     background: #1b79e6;
@@ -250,6 +229,13 @@ a:link {
     padding: 5px 20px;
     border-color: #f9faf0;
     border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
 }
 .footer {
     left: 0;

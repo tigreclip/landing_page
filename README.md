@@ -16,6 +16,8 @@ This adaptive webpage was created using HTML and CSS to fit across different dev
 ## Usage
 To view the adaptive webpage, simply open the  `index.html`  file in a web browser. Feel free to customize the content and styles to suit your needs.
 
+![alt text](https://github.com/tigreclip]/landing_page/blob/main/website_done.jpg?raw=true)
+
 ## Credits
 This adaptive webpage was created by Tigreclip following The Odin Project course. 
 

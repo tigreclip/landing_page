@@ -18,7 +18,7 @@ This adaptive webpage was created using HTML and CSS to fit across different dev
 To view the adaptive webpage, simply open the  `index.html`  file in a web browser. Feel free to customize the content and styles to suit your needs.
 
 # Webpage I did
-[Landing page done!](website_done.JPG)
+![Landing page done!](website_done.JPG)
 
 ## Credits
 This adaptive webpage was created by @Tigreclip following The Odin Project course. 

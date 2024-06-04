@@ -7,6 +7,7 @@ This adaptive webpage was created using HTML and CSS to fit across different dev
 - Utilizes media queries to apply different styles based on the device's screen width.
 - Flexible layout structure that maintains readability and usability on all devices.
 
+# Webpage outpu
 ![Webpage desing with HTML and CSS Flexbox](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 ## Technologies Used
@@ -15,6 +16,8 @@ This adaptive webpage was created using HTML and CSS to fit across different dev
 
 ## Usage
 To view the adaptive webpage, simply open the  `index.html`  file in a web browser. Feel free to customize the content and styles to suit your needs.
+
+# Website done!
 
 ![Landing page done!](website_done.JPG)
 

@@ -17,10 +17,10 @@ This adaptive webpage was created using HTML and CSS to fit across different dev
 ## Usage
 To view the adaptive webpage, simply open the  `index.html`  file in a web browser. Feel free to customize the content and styles to suit your needs.
 
-# Website done!
-git![Landing page done!](website_done.JPG)
+# Webpage I did
+[Landing page done!](website_done.JPG)
 
 ## Credits
-This adaptive webpage was created by Tigreclip following The Odin Project course. 
+This adaptive webpage was created by @Tigreclip following The Odin Project course. 
 
 Thank you for using this adaptive webpage! 
